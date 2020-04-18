@@ -3,3 +3,4 @@
 Kata's of Coding Dojo in Java to practice TDD.
 
 - Saving Account;
+- FizzBuzz;
