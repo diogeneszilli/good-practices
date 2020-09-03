@@ -1,7 +1,9 @@
-# TDD Practice
+# Good Practices
 
-Kata's of Coding Dojo in Java to practice TDD.
+## TDD
+
+Kata's of Coding Dojo in Java to practice tdd.
 
 - Saving Account;
-- FizzBuzz;
-- Bowling Game;
+- tdd.FizzBuzz;
+- tdd.Bowling Game;
