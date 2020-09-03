@@ -1,3 +1,5 @@
+package tdd;
+
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -31,7 +33,7 @@ public class BowlingTest {
     @Test
     public void hasNextRound() {
         Bowling bowling = new Bowling();
-        assertEquals("Is not the end of the game", true, bowling.hasNextRound(8, 10));
+        assertEquals("Is not the end of the game", true, bowling.hasNextRound(7, 10));
     }
 
     @Test
@@ -50,7 +52,7 @@ public class BowlingTest {
     @Test
     public void validGame150Points() {
         Bowling bowling = new Bowling();
-        int[] game = {5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5};
+        int[] game = {5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5};
         assertEquals("Total points", 150, bowling.runGame(game));
     }
 

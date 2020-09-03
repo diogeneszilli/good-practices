@@ -1,3 +1,5 @@
+package tdd;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -12,7 +14,7 @@ public class FizzBuzz {
     }
 
     public String checkNumber(Integer number) {
-        return isDivisibleByThreeAndFive(number) ? "FizzBuzz"
+        return isDivisibleByThreeAndFive(number) ? "tdd.FizzBuzz"
                 : isDivisibleByThree(number) ? "Fizz"
                 : isDivisibleByFive(number) ? "Buzz"
                 : number.toString();
